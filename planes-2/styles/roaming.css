@@ -62,7 +62,7 @@ header.header-fixed {
   width: 100%;
   height: 350px;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center;
 }
 .hero h1 {
   color: #fff;
