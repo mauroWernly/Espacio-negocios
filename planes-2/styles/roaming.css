@@ -58,15 +58,16 @@ header.header-fixed {
   width: 100%;
 }
 .hero {
-  background-image: url('../img/header_bg.png');
+  background-image: url('../img/header_bg.jpg');
   width: 100%;
-  height: 428px;
+  height: 350px;
   background-size: cover;
+  background-position: center bottom;
 }
 .hero h1 {
   color: #fff;
   font-size: 46px;
-  padding-top: 165px;
+  padding-top: 120px;
   margin-top: 0;
   font-family: 'telefonicalight';
 }
