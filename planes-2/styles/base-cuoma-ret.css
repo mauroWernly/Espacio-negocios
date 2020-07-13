@@ -1,0 +1,951 @@
+/*.aui .modal {
+    width: 65%;
+    max-width: 840px;
+    background-color: #fff; }
+    .aui .modal .m-product-modal__title {
+      font-size: 32px;
+      color: #50535a;
+      text-align: center;
+      margin-bottom: 10px; }
+    .aui .modal .m-product-modal__advertise {
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 20px; }
+    .aui .modal .c-plan__list-item-title {
+      font-weight: bold;
+      font-size: 18px;
+      text-align: left; }
+    .aui .modal .c-plan__text-planes {
+      font-size: 14px;
+      line-height: 14px;
+      text-align: left; }
+    .aui .modal .c-plan__text.c-plan__list-item-planes--price {
+      color: #5bc500; }
+    .aui .modal .category-tabs {
+      margin-bottom: 0; }
+    .aui .modal .modal__footer-text {
+      font-size: 14px;
+      color: #86888c;
+      font-family: 'TelefonicaItalic'; }
+    .aui .modal .c-plan__text.c-plan__list-item-planes--price {
+      font-size: 30px;
+      line-height: 30px; }
+    .aui .modal .c-plan__list-item {
+      padding: 10px 0; }
+    .aui .modal .modal-footer {
+      background-color: #fff;
+      padding: 0 50px; }
+      .aui .modal .modal-footer .legales {
+        margin-top: 10px;
+        display: block;
+        font-size: 16px; }
+    .aui .modal .c-plan__header {
+      display: none; }
+      .aui .modal .c-plan__header .c-plan__price {
+        margin-top: 5px; }
+      .aui .modal .c-plan__header .c-plan__deail-text {
+        text-align: left;
+        top: 0; }
+      @media (max-width: 991px) {
+        .aui .modal .c-plan__header {
+          display: flex; } }
+    .aui .modal .pricing-accordion--isOpen .c-plan--isActive .c-plan__deail-text {
+      display: block !important; }
+    @media (max-width: 991px) {
+      .aui .modal .modal-content {
+        margin-top: 40px; }
+      .aui .modal .modal-footer {
+        margin-top: 20px; }
+      .aui .modal .container-tabs__planes .tab-panel {
+        padding-top: 10px; }
+      .aui .modal .legales {
+        margin: 20px 0;
+        text-align: center; } }
+  .aui #modal-planes {
+    max-height: 94%; }
+    @media (max-width: 991px) {
+      .aui #modal-planes {
+        top: 0 !important;
+        max-height: 100%;
+        height: 100%;
+        width: 100%; } }
+  .aui #modal-bienvenida {
+    background-color: #5bc500;
+    background: url("http://www.movistar.com.ar/documents/10180/28107425/hero-bienvenida-desktop.jpg") no-repeat center;
+    background-size: cover;
+    width: 90%;
+    max-width: 1000px;
+    min-height: 600px; }
+    .aui #modal-bienvenida .close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: transparent;
+      opacity: 1;
+      border: none; }
+      .aui #modal-bienvenida .close i {
+        color: #fff; }
+    .aui #modal-bienvenida .modal__item-title {
+      color: #fff;
+      text-align: center;
+      font-size: 50px;
+      max-width: 700px;
+      display: block;
+      margin: 0 auto; }
+      .aui #modal-bienvenida .modal__item-title span {
+        font-family: 'TelefonicaHand'; }
+    .aui #modal-bienvenida .modal__item-subtitle {
+      color: #fff;
+      text-align: center;
+      font-size: 20px;
+      margin-top: 10px; }
+    @media (max-width: 768px) {
+      .aui #modal-bienvenida {
+        background: url("http://www.movistar.com.ar/documents/10180/28107425/hero-bienvenida-mobile.jpg") no-repeat center;
+        background-size: cover;
+        top: 2% !important; }
+        .aui #modal-bienvenida .modal__item-title {
+          font-size: 32px; }
+        .aui #modal-bienvenida .modal__item-subtitle {
+          font-size: 18px; } }
+  .aui #modal-fibra-negocios .fsLabel {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #50535a;
+    display: block; }
+  .aui #modal-fibra-negocios .form-control {
+    height: auto;
+    background-color: #fff !important;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 14px;
+    color: #86888c;
+    width: 100%;
+    background-image: none !important;
+    font: 14px 'Telefonica', Helvetica, Verdana, sans-serif; }
+    .aui #modal-fibra-negocios .form-control.parsley-error {
+      border: 1px solid #ec6839 !important;
+      background-color: #fff !important; }
+    .aui #modal-fibra-negocios .form-control::-webkit-input-placeholder {
+      color: #86888c;
+      font-family: 'TelefonicaItalic'; }
+    .aui #modal-fibra-negocios .form-control:-moz-placeholder {
+      // Firefox 18-
+      color: #86888c;
+      font-family: 'TelefonicaItalic'; }
+    .aui #modal-fibra-negocios .form-control::-moz-placeholder {
+      // Firefox 19+ 
+      color: #86888c;
+      font-family: 'TelefonicaItalic'; }
+    .aui #modal-fibra-negocios .form-control:-ms-input-placeholder {
+      color: #86888c;
+      font-family: 'TelefonicaItalic'; }
+  .aui #modal-fibra-negocios .formbot > p {
+    font-family: 'TelefonicaItalic';
+    font-size: 14px;
+    color: #86888c; }
+
+.aui #modal-verifica, .aui #modal-verifica-fake, .aui #modal-equipos {
+    width: 1000px !important;
+    max-width: 1000px !important;
+    padding: 40px 10px; }
+    .aui #modal-verifica .modal-content, .aui #modal-verifica-fake .modal-content, .aui #modal-equipos .modal-content {
+      border-radius: 0; }
+      @media (max-width: 480px) {
+        .aui #modal-verifica .modal-content, .aui #modal-verifica-fake .modal-content, .aui #modal-equipos .modal-content {
+          margin-top: 10px; } }
+      .aui #modal-verifica .modal-content .btn-cerrar, .aui #modal-verifica-fake .modal-content .btn-cerrar, .aui #modal-equipos .modal-content .btn-cerrar {
+        width: 16px;
+        height: 16px;
+        display: block;
+        font-size: 22px;
+        color: #50535A;
+        position: absolute;
+        right: 30px;
+        top: 20px; }
+      .aui #modal-verifica .modal-content h3, .aui #modal-verifica-fake .modal-content h3, .aui #modal-equipos .modal-content h3 {
+        text-align: center;
+        font-family: 'Telefonica';
+        font-size: 32px;
+        color: #50535A;
+        letter-spacing: 0;
+        font-weight: 300; }
+        @media (max-width: 480px) {
+          .aui #modal-verifica .modal-content h3, .aui #modal-verifica-fake .modal-content h3, .aui #modal-equipos .modal-content h3 {
+            font-size: 20px; } }
+      .aui #modal-verifica .modal-content p, .aui #modal-verifica-fake .modal-content p, .aui #modal-equipos .modal-content p {
+        font-size: 16px;
+        font-family: 'Telefonica';
+        color: #50535a;
+        text-align: center;
+        padding: 0 20px;
+        margin-bottom: 20px; }
+      .aui #modal-verifica .modal-content .btn-holder, .aui #modal-verifica-fake .modal-content .btn-holder, .aui #modal-equipos .modal-content .btn-holder {
+        text-align: center;
+        width: 100%; }
+        .aui #modal-verifica .modal-content .btn-holder .btn, .aui #modal-verifica-fake .modal-content .btn-holder .btn, .aui #modal-equipos .modal-content .btn-holder .btn {
+          height: 48px; }
+      .aui #modal-verifica .modal-content .item, .aui #modal-verifica-fake .modal-content .item, .aui #modal-equipos .modal-content .item {
+        display: block;
+        padding: 20px 10px; }
+        @media (max-width: 480px) {
+          .aui #modal-verifica .modal-content .item, .aui #modal-verifica-fake .modal-content .item, .aui #modal-equipos .modal-content .item {
+            display: flex; } }
+      .aui #modal-verifica .modal-content .second-row .item, .aui #modal-verifica-fake .modal-content .second-row .item, .aui #modal-equipos .modal-content .second-row .item {
+        min-height: 128px; }
+      .aui #modal-verifica .modal-content .item .icon, .aui #modal-verifica-fake .modal-content .item .icon, .aui #modal-equipos .modal-content .item .icon {
+        text-align: center;
+        display: block;
+        margin-bottom: 20px; }
+        @media (max-width: 480px) {
+          .aui #modal-verifica .modal-content .item .icon img, .aui #modal-verifica-fake .modal-content .item .icon img, .aui #modal-equipos .modal-content .item .icon img {
+            width: 40px;
+            margin-right: 20px; } }
+      .aui #modal-verifica .modal-content .item .text, .aui #modal-verifica-fake .modal-content .item .text, .aui #modal-equipos .modal-content .item .text {
+        text-align: center;
+        font-family: 'Telefonica';
+        font-size: 18px;
+        color: #50535A;
+        letter-spacing: 0;
+        line-height: 24px;
+        display: block; }
+        @media (max-width: 990px) {
+          .aui #modal-verifica .modal-content .item .text, .aui #modal-verifica-fake .modal-content .item .text, .aui #modal-equipos .modal-content .item .text {
+            font-size: 16px;
+            line-height: 19px; } }
+        @media (max-width: 480px) {
+          .aui #modal-verifica .modal-content .item .text, .aui #modal-verifica-fake .modal-content .item .text, .aui #modal-equipos .modal-content .item .text {
+            text-align: left; } }
+    .aui #modal-verifica h4, .aui #modal-verifica-fake h4, .aui #modal-equipos h4 {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 20px; }
+    .aui #modal-verifica .otros-equipos, .aui #modal-verifica-fake .otros-equipos, .aui #modal-equipos .otros-equipos {
+      background: #eaeaea;
+      padding: 20px;
+      color: #50535a !important;
+      font-size: 22px;
+      width: 100%;
+      text-align: center;
+      display: block; }
+      .aui #modal-verifica .otros-equipos span, .aui #modal-verifica-fake .otros-equipos span, .aui #modal-equipos .otros-equipos span {
+        font-family: 'Telefonica';
+        font-weight: 300; }
+    @media (max-width: 990px) {
+      .aui #modal-verifica, .aui #modal-verifica-fake, .aui #modal-equipos {
+        width: 860px !important;
+        max-width: 860px !important; } }
+    @media (max-width: 767px) {
+      .aui #modal-verifica, .aui #modal-verifica-fake, .aui #modal-equipos {
+        width: 100% !important;
+        max-width: 100% !important; } }
+  @media (max-width: 767px) {
+    .aui #modal-verifica {
+      top: 0% !important;
+      max-height: 100%; }
+      .aui #modal-verifica .modal-content .icon {
+        margin-bottom: 0px !important; }
+      .aui #modal-verifica .modal-content h4 {
+        font-size: 20px;
+        margin: 0px auto 10px; }
+      .aui #modal-verifica .modal-content a.otros-equipos {
+        font-size: 17px; } }
+  .aui #modal-equipos ul li {
+    float: left;
+    width: 33.3%;
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: 'Telefonica'; }
+  .aui #modal-equipos ul {
+    padding: 20px; }
+
+
+  .aui #modal-equipos .modal-dialog {
+    width: 990px; }
+  .aui #modal-equipos .modal-body {
+    padding: 10px 30px 30px; }
+    .aui #modal-equipos .modal-body h2 {
+      font-size: 38px;
+      font-family: 'TelefonicaLight';
+      color: #50535a;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 10px; }
+    .aui #modal-equipos .modal-body p {
+      font-size: 16px;
+      font-family: 'TelefonicaRegular';
+      color: #50535a;
+      text-align: center;
+      padding: 0 20px;
+      margin-bottom: 20px; }
+    .aui #modal-equipos .modal-body ul {
+      padding-left: 20px;
+      margin-left: 20px; }
+      .aui #modal-equipos .modal-body ul li {
+        float: left;
+        width: 33.3%;
+        margin: 10px 0;
+        font-size: 16px;
+        font-family: 'TelefonicaRegular'; }
+  @media (max-width: 991px) {
+    .aui #modal-equipos .modal-content ul li {
+      width: 50%; } }
+  @media (max-width: 767px) {
+    .aui #modal-equipos .modal-content {
+      padding: 10px 10px 30px; }
+      .aui #modal-equipos .modal-content h2 {
+        font-size: 20px; }
+      .aui #modal-equipos .modal-content p {
+        padding: 0 5px;
+        font-size: 14px; }
+      .aui #modal-equipos .modal-content ul li {
+        width: 100%;
+        font-size: 18px;
+        margin-top: 0; } }
+
+
+  .aui #modal-tarifas {
+    max-width: 1200px;
+    width: 95%; }
+    .aui #modal-tarifas .modal-close {
+      position: absolute;
+      right: 20px;
+      top: 20px; }
+    .aui #modal-tarifas .flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      border-right: 1px solid #e9eae8;
+      padding: 40px 0;
+      margin-bottom: 40px; }
+      .aui #modal-tarifas .flex:last-child {
+        border-right: none; }
+    .aui #modal-tarifas .modal-header__title {
+      font-size: 32px;
+      font-weight: 300;
+      color: #50535a;
+      text-align: center;
+      display: block;
+      margin: 20px auto 0; }
+    .aui #modal-tarifas .modal-tarifas__price {
+      font-size: 60px;
+      font-weight: 300;
+      color: #00a9e0;
+      position: relative;
+      width: 50%;
+      line-height: 60px;
+      padding: 0 20px; }
+      .aui #modal-tarifas .modal-tarifas__price span {
+        font-size: 18px;
+        color: #86888c;
+        text-align: center;
+        width: 100%;
+        display: block;
+        line-height: 18px;
+        position: absolute;
+        top: -20px; }
+      .aui #modal-tarifas .modal-tarifas__price sup {
+        font-size: 50%;
+        top: -22px; }
+      .aui #modal-tarifas .modal-tarifas__price sub {
+        color: #50535a;
+        font-size: 18px;
+        bottom: -1px;
+        left: -30px; }
+    .aui #modal-tarifas .modal-tarifas__text {
+      font-size: 18px;
+      font-weight: bold;
+      color: #50535a;
+      width: 100%;
+      text-align: center;
+      margin-top: 10px; }
+  .aui #modal-destinos {
+    max-width: 1200px;
+    width: 95%; }
+    .aui #modal-destinos .modal-close {
+      position: absolute;
+      right: 20px;
+      top: 20px; }
+    .aui #modal-destinos .modal-header__title {
+      font-size: 32px;
+      font-weight: 300;
+      color: #50535a;
+      text-align: center;
+      display: block;
+      margin: 20px auto 0; }
+    .aui #modal-destinos .modal-destinos__title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #50535a; }
+    .aui #modal-destinos .modal-destinos__text {
+      font-size: 18px;
+      color: #50535a;
+      margin-bottom: 20px; }
+
+
+  .aui #modal-cobertura {
+    width: 98%;
+    max-width: 1200px;
+    max-height: 80%; }
+    .aui #modal-cobertura .modal-header h3 {
+      font-size: 30px;
+      margin: 0;
+      margin-top: 30px; }
+    .aui #modal-cobertura .modal-header p {
+      font-size: 16px;
+      margin-top: 0; }
+    .aui #modal-cobertura .form-group {
+      max-width: 280px;
+      float: right; }
+      .aui #modal-cobertura .form-group label {
+        font-size: 14px; }
+*/
+
+div#modal-cobertura {
+    background-color: #fff;
+    max-height: 80%;
+    top: 10%;
+    width: 80%;
+    margin: auto;
+}
+
+#modal-cobertura .modal-header {
+  border-bottom: none;
+}
+    
+#modal-cobertura .modal-content {
+  border: none;
+  padding: 0 110px;
+  box-shadow: none;
+}
+
+#modal-cobertura .modal-content input[type=text] {
+  padding: 8px 10px;
+  margin-left: 10px;
+  width: 200px;
+}
+
+.modal-header .close {
+  font-size: 47px;
+}
+.aui table.paises {
+    margin: 40px auto; }
+    .aui table.paises th,
+    .aui table.paises td {
+      font-size: 12px;
+      color: #50535a;
+      padding: 10px;
+      border: 1px solid #e1e1e1; }
+    .aui table.paises th.bold {
+      font-weight: bold; }
+    .aui table.paises tr:first-child th {
+      padding: 5px 10px; }
+      .aui table.paises tr:first-child th:nth-of-type(3) {
+        background-color: #f4f4f4; }
+    .aui table.paises tr:last-child th:nth-of-type(2), .aui table.paises tr:last-child th:nth-of-type(5), .aui table.paises tr:last-child th:nth-of-type(6) {
+      background-color: #f4f4f4; }
+    .aui table.paises tr:last-child th:nth-of-type(10) {
+      background-color: #f4f4f4;
+      width: 80px; }
+    .aui table.paises tr:last-child th:nth-of-type(11) {
+      background-color: #f4f4f4; }
+    .aui table.paises td:nth-of-type(2), .aui table.paises td:nth-of-type(5), .aui table.paises td:nth-of-type(6), .aui table.paises td:nth-of-type(10), .aui table.paises td:nth-of-type(11) {
+      background-color: #f4f4f4; }
+    .aui table.paises th.gris,
+    .aui table.paises td.gris {
+      background-color: #f4f4f4; }
+
+/*
+  .aui table.planes td:nth-of-type(4) {
+    text-align: left; }
+  .aui table.planes th:nth-of-type(2), .aui table.planes th:nth-of-type(3), .aui table.planes th:nth-of-type(4), .aui table.planes th:nth-of-type(5) {
+    text-align: center; }
+  .aui .content-negocios .c-plan.roaming .detail-roaming {
+    font-size: 22px; }
+  .aui .content-negocios .quick-links-wrapper.roaming .quick-links-container .quick-links:before {
+    background: #954B97;
+    color: #954B97; }
+
+  .aui .content-negocios #modal-ofertas .modal-close {
+    position: absolute;
+    right: 20px;
+    top: 20px; }
+  .aui .content-negocios .modal-roaming-ofertas {
+    max-width: inherit; }
+    @media (max-width: 991px) {
+      .aui .content-negocios .modal-roaming-ofertas {
+        width: 95%; } }
+    .aui .content-negocios .modal-roaming-ofertas table.planes {
+      margin: 30px 20px; }
+      .aui .content-negocios .modal-roaming-ofertas table.planes .cucarda {
+        width: 110px;
+        height: 110px;
+        padding: 9px 0;
+        font-size: 45px;
+        text-align: center;
+        color: #fff;
+        background: url("//www.movistar.com.ar/documents/10192/7354314/cucarda-roaming-precio.png");
+        background-size: cover; }
+        .aui .content-negocios .modal-roaming-ofertas table.planes .cucarda sup {
+          font-size: 50%;
+          top: -16px; }
+        .aui .content-negocios .modal-roaming-ofertas table.planes .cucarda span {
+          font-size: 20px;
+          display: block;
+          margin-top: -14px;
+          width: 100%;
+          font-family: 'Telefonica'; }
+      .aui .content-negocios .modal-roaming-ofertas table.planes thead {
+        border-bottom: 1px solid #d7d7d7;
+        font-size: 18px;
+        color: #50535a;
+        font-family: 'Telefonica';
+        text-transform: uppercase; }
+      .aui .content-negocios .modal-roaming-ofertas table.planes th {
+        padding: 10px 0;
+        padding-right: 10px; }
+      .aui .content-negocios .modal-roaming-ofertas table.planes td {
+        padding: 20px 0;
+        padding-right: 10px; }
+      .aui .content-negocios .modal-roaming-ofertas table.planes tbody tr {
+        border-bottom: 1px solid #d7d7d7; }
+        .aui .content-negocios .modal-roaming-ofertas table.planes tbody tr:last-child {
+          border-bottom: none; }
+      .aui .content-negocios .modal-roaming-ofertas table.planes td {
+        font-family: 'Telefonica';
+        font-size: 16px;
+        color: #50535a; }
+        .aui .content-negocios .modal-roaming-ofertas table.planes td.promo {
+          font-size: 18px;
+          color: #00a9e0;
+          min-width: 150px; }
+
+
+  .aui .modal label.error {
+    color: #D13F3C;
+    font-size: 12px;
+    padding: 5px;
+    display: block;
+    position: relative;
+    top: auto;
+    left: 0;
+    font-weight: normal;
+    line-height: 15px; }
+  .aui #modal.modal, .aui #modal-negocios.modal, .aui #modal-negocios-plan.modal {
+    width: 600px;
+    border-radius: 8px; }
+    .aui #modal.modal .btn, .aui #modal-negocios.modal .btn, .aui #modal-negocios-plan.modal .btn {
+      width: 100%; }
+    @media (max-width: 768px) {
+      .aui #modal.modal, .aui #modal-negocios.modal, .aui #modal-negocios-plan.modal {
+        width: 100%; }
+        .aui #modal.modal h2, .aui #modal-negocios.modal h2, .aui #modal-negocios-plan.modal h2 {
+          font-size: 26px; }
+        .aui #modal.modal h3, .aui #modal-negocios.modal h3, .aui #modal-negocios-plan.modal h3 {
+          font-size: 24px; } }
+  .aui .modal-header {
+    border: none;
+    padding: 15px 24px; }
+    .aui .modal-header .close {
+      float: right;
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 1;
+      color: #000000;
+      text-shadow: 0 1px 0 #ffffff;
+      opacity: 0.2;
+      border: none; }
+  .aui .modal-content {
+    min-height: 330px; }
+    .aui .modal-content .form-control::-webkit-input-placeholder {
+      color: #1d1d1d; }
+    .aui .modal-content .form-control:-moz-placeholder {
+      // Firefox 18- 
+      color: #1d1d1d; }
+    .aui .modal-content .form-control::-moz-placeholder {
+      // Firefox 19+ 
+      color: #1d1d1d; }
+    .aui .modal-content .form-control:-ms-input-placeholder {
+      color: #1d1d1d; }
+    .aui .modal-content .form-control.error {
+      border: 1px solid #B94A48;
+      color: #B94A48; }
+    .aui .modal-content .form-control.error::-webkit-input-placeholder {
+      color: #B94A48; }
+    .aui .modal-content .form-control.error:-moz-placeholder {
+      // Firefox 18- 
+      color: #B94A48; }
+    .aui .modal-content .form-control.error::-moz-placeholder {
+      // Firefox 19+ 
+      color: #B94A48; }
+    .aui .modal-content .form-control.error:-ms-input-placeholder {
+      color: #B94A48; }
+  .aui .modal-content h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 42px;
+    color: #1d1d1d; }
+  .aui .modal-content h3 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    color: #1d1d1d; }
+  .aui .modal-content h4 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 35px;
+    color: #5ac2ff;
+    margin: 30px auto 10px; }
+  .aui .modal-content h4 a {
+    color: #5ac2ff; }
+  .aui .modal-content p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px; }
+  .aui .modal-content p i {
+    background-color: #00a9e0;
+    border-radius: 50%;
+    color: #fff;
+    padding: 6px; }
+  .aui .modal-content p i.facebook {
+    padding: 6px 9px; }
+  .aui .modal-content .close {
+    width: 25px; }
+
+
+
+  .aui #ok-modal, .aui #ok-modal-banner {
+    margin: 40px 0;
+    background-color: #fff;
+    padding: 1px 0 30px;
+    border-radius: 7px; }
+    .aui #ok-modal span i, .aui #ok-modal-banner span i {
+      color: #5ac2ff; }
+    .aui #ok-modal h5, .aui #ok-modal h6, .aui #ok-modal-banner h5, .aui #ok-modal-banner h6 {
+      color: #1d1d1d; }
+  .aui #modal form {
+    margin-top: 30px;
+    position: relative; }
+  .aui #modal form input {
+    font-weight: 300;
+    border-radius: 8px;
+    color: #1d1d1d;
+    font-size: 18px;
+    height: auto;
+    padding: 15px 18px 18px;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    box-shadow: none;
+    text-align: center;
+    margin-bottom: 0px;
+    outline: none !important;
+    line-height: 25px;
+    background-image: none !important;
+    font: 'Telefonica' 18px #1d1d1d !important; }
+  .aui #modal form button {
+    font-weight: 300;
+    background-color: #5bc500;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    height: auto;
+    padding: 15px 18px 18px;
+    width: 100%;
+    // box-shadow: 8px 9px 15px -1px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ffffff; }
+  .aui #modal-negocios p, .aui #modal-negocios-plan p {
+    padding-top: 0px !important;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px; }
+  .aui #modal-negocios h2, .aui #modal-negocios-plan h2 {
+    padding: 0;
+    font-weight: 300;
+    font-size: 40px;
+    color: #50535a;
+    margin-bottom: 40px;
+    text-align: center; }
+    .aui #modal-negocios h2 span, .aui #modal-negocios-plan h2 span {
+      font-weight: bold;
+      font-size: 40px;
+      color: #50535a; }
+  .aui #modal-negocios .ctcneg, .aui #modal-negocios-plan .ctcneg {
+    background-color: #fff; }
+    .aui #modal-negocios .ctcneg input#ani p, .aui #modal-negocios .ctcneg #cuit p, .aui #modal-negocios-plan .ctcneg input#ani p, .aui #modal-negocios-plan .ctcneg #cuit p {
+      font-family: "TelefonicaItalic";
+      font-size: 14px;
+      color: #50535a; }
+    .aui #modal-negocios .ctcneg button, .aui #modal-negocios-plan .ctcneg button {
+      display: block;
+      margin-top: 20px;
+      font-size: 16px;
+      line-height: 26px;
+      padding: 10px 30px 14px;
+      background-color: #954B97;
+      border: none;
+      color: #fff !important;
+      border-radius: 8px;
+      font-weight: 300;
+      font-weight: normal !important;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      width: fit-content; }
+  @media (max-width: 768px) {
+    .aui #modal-negociosh2 {
+      font-size: 30px;
+      padding: 20px 20px 0 0;
+      text-align: center; } }
+  @media (max-width: 768px) {
+    .aui #modal-negociosh2 span {
+      font-size: 30px;
+      padding: 20px 20px 0 0; } }
+  @media (max-width: 768px) {
+    .aui #modal-negocios.ctcneg .error {
+      width: 100%; } }
+  @media (max-width: 768px) {
+    .aui #modal-negocios.ctcneg input#ani, .aui #modal-negocios.ctcneg #cuit {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px; } }
+  @media (max-width: 768px) {
+    .aui #modal-negocios.ctcneg button {
+      margin: 20px auto !important;
+      width: 100%; } }
+  @media (max-width: 768px) {
+    .aui #modal-negocios.rrss .redesrrss ul {
+      justify-content: center;
+      padding-left: 0px; } }
+  @media (max-width: 768px) {
+    .aui #modal-negocios.rrss .titulo {
+      margin: 20px auto; } }
+  @media (max-width: 768px) {
+    .aui #modal-negocios.rrss h3 {
+      font-size: 32px;
+      padding: 20px 20px 0 0;
+      text-align: center; } }
+  @media (max-width: 768px) {
+    .aui #modal-negocios.rrss h3 span {
+      font-size: 32px;
+      padding: 20px 0px 0 0;
+      text-align: center; } }
+  @media (max-width: 768px) {
+    .aui #modal-negocios.rrss p {
+      font-size: 16px;
+      padding: 0px !important;
+      text-align: center; } }
+  @media (max-width: 768px) {
+    .aui #modal-negocios.rrss .btn {
+      margin: 50px 0; } }
+  @media (max-width: 768px) {
+    .aui #modal-negocios.rrss, .aui #modal-negocios-plan.rrss {
+      height: 440px; } }
+  .aui #modal-negocios form, .aui #modal-negocios-plan form {
+    margin-top: 30px;
+    position: relative; }
+  .aui #modal-negocios form input, .aui #modal-negocios-plan form input {
+    font-weight: 300;
+    border-radius: 8px;
+    color: #1d1d1d;
+    font-size: 18px;
+    height: auto;
+    padding: 15px 18px 18px;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    box-shadow: none;
+    text-align: center;
+    margin-bottom: 10px;
+    outline: none !important;
+    line-height: 25px; }
+  .aui #modal-negocios form button, .aui #modal-negocios-plan form button {
+    font-weight: 300;
+    background-color: #5bc500;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    height: auto;
+    padding: 15px 18px 18px;
+    width: 100%;
+    // box-shadow: 8px 9px 15px -1px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ffffff; }
+  .aui #modal-negocios form button:focus, .aui #modal-negocios-plan form button:focus {
+    outline-color: #fff; }
+  .aui #modal-negocios .formctc, .aui #modal-negocios-plan .formctc {
+    margin-top: 30px;
+    position: relative; }
+  .aui #modal-negocios label.error, .aui #modal-negocios-plan label.error {
+    display: block;
+    top: auto;
+    position: relative;
+    font-weight: normal;
+    line-height: 15px; }
+  .aui #modal-negocios .formctc input, .aui #modal-negocios-plan .formctc input {
+    font-weight: 300;
+    border-radius: 8px;
+    color: #1d1d1d;
+    font-size: 18px;
+    height: auto;
+    padding: 15px 18px 18px;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    box-shadow: none;
+    text-align: center;
+    margin-bottom: 10px;
+    outline: none !important;
+    line-height: 25px;
+    background-image: none; }
+  .aui #modal-negocios .formctc button, .aui #modal-negocios-plan .formctc button {
+    font-weight: 300;
+    background-color: #834892;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    height: auto;
+    padding: 15px 18px 18px;
+    width: 100%;
+    // box-shadow: 8px 9px 15px -1px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ffffff;
+    background-image: none !important; }
+  .aui #modal-negocios-plan.formctc button .formctc button:focus {
+    outline-color: #fff;
+    outline-offset: 0; }
+  .aui #modal-negocios.formctc button .formctc button:focus {
+    outline-color: #fff;
+    outline-offset: 0; }
+  .aui #modal-comprar .modal-dialog {
+    width: 960px; }
+    .aui #modal-comprar .modal-dialog .modal-body {
+      padding: 20px 100px; }
+  .aui #modal-comprar .select-styled {
+    font-size: 14px; }
+  .aui #modal-comprar .select-options li {
+    font-size: 14px; }
+  .aui #modal-comprar .form-group .parsley-errors-list {
+    margin-top: 5px; }
+  .aui #modal-comprar #parsley-id-multiple-terminos {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: -15px;
+    display: block !important; }
+  .aui #modal-comprar .thank-you {
+    text-align: center; }
+    .aui #modal-comprar .thank-you h3 {
+      font-family: 'TelefonicaHand';
+      font-size: 50px;
+      text-align: center;
+      border: none; }
+  @media (max-width: 960px) {
+    .aui #modal-comprar .modal-dialog {
+      width: 100%; }
+      .aui #modal-comprar .modal-dialog .modal-body {
+        padding: 10px; }
+    .aui #modal-comprar .form-control {
+      width: 100%; } }
+  .aui #modal-comprar h2 {
+    font-weight: 300;
+    font-size: 32px;
+    color: #86888c;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 0; }
+  .aui #modal-comprar h3 {
+    font-size: 20px;
+    color: #00a9e0;
+    text-align: left;
+    border-top: 1px solid #86888c;
+    border-bottom: 1px solid #86888c;
+    padding: 10px 12px;
+    margin: 10px 0; }
+  .aui #modal-comprar p.required {
+    font-family: 'TelefonicaItalic';
+    font-size: 12px;
+    color: #86888c;
+    text-align: left;
+    margin: 0 0 10px; }
+  .aui #modal-comprar .checkbox {
+    margin-top: 0;
+    padding-bottom: 10px; }
+  .aui #modal-comprar .select {
+    border-radius: 4px;
+    background-color: #e9e9e7 !important;
+    position: relative; }
+    .aui #modal-comprar .select select {
+      padding: 14px;
+      border: none;
+      color: #86888c;
+      font-size: 14px;
+      box-shadow: none;
+      background: transparent;
+      background-image: none;
+      -webkit-appearance: none; }
+      .aui #modal-comprar .select select:focus {
+        outline: none; }
+    .aui #modal-comprar .select .select-arrow {
+      position: absolute;
+      right: 14px;
+      top: 15px;
+      color: #00a9e0; }
+  .aui #modal-comprar .form-group {
+    position: relative;
+    padding-bottom: 16px;
+    margin-bottom: 5px; }
+    .aui #modal-comprar .form-group .dummy {
+      position: absolute;
+      right: 8px;
+      top: 8px;
+      width: 40px;
+      height: 40px;
+      background-color: #e9e9e7 !important; }
+  .aui #modal-comprar .form-control {
+    height: auto;
+    background-color: #e9e9e7 !important;
+    border: none;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 14px;
+    color: #86888c;
+    width: 100%; }
+    .aui #modal-comprar .form-control.parsley-error {
+      border: 1px solid #ec6839 !important;
+      background-color: #fff !important; }
+    .aui #modal-comprar .form-control::-webkit-input-placeholder {
+      color: #86888c;
+      font-family: 'TelefonicaItalic'; }
+    .aui #modal-comprar .form-control:-moz-placeholder {
+      // Firefox 18- 
+      color: #86888c;
+      font-family: 'TelefonicaItalic'; }
+    .aui #modal-comprar .form-control::-moz-placeholder {
+      // Firefox 19+ 
+      color: #86888c;
+      font-family: 'TelefonicaItalic'; }
+    .aui #modal-comprar .form-control:-ms-input-placeholder {
+      color: #86888c;
+      font-family: 'TelefonicaItalic'; }
+*/
+
+.aui #modal-destinos .modal-header__title {
+    font-size: 32px;
+    font-weight: 300;
+    color: #50535a;
+    text-align: center;
+    display: block;
+    margin: 20px auto 0;
+}
+.aui #modal-destinos .modal-destinos__title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #50535a;
+}
+.aui #modal-destinos .modal-destinos__text {
+    font-size: 18px;
+    color: #50535a;
+    margin-bottom: 20px;
+}
+
+.aui #modal-destinos .modal-header, .aui #modal-destinos .modal-content {
+  padding: 20px;
+}
